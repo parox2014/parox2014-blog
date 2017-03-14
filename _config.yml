@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: parox2014
-subtitle: 码出个未来
-description: 没有人是完美的
-author: 慕苏
-language: zh-CN
+title: Coding For Future
+subtitle:
+description: Love life , Love programing
+author: Wenyan Du
+language: en
 timezone:
 
 # URL
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: BlueLake
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -72,3 +72,44 @@ deploy:
   repo: git@github.com:parox2014/parox2014.github.io.git
   branch: master
   message:
+
+feed:
+  type: atom
+  path: /atom.xml
+  limit: 20
+
+jekyll:
+  project: false
+  selfIntro: true
+  sign_image: img/github.png
+
+# Social
+social:
+  github: https://github.com/parox2014
+  weibo: http://weibo.com/angular2
+
+# Analytics
+google_analytics:
+baidu_analytics:
+
+
+
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: true
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
+
